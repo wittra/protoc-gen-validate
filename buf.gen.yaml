@@ -2,3 +2,5 @@ version: v1
 plugins:
   - plugin: python
     out: .
+  - plugin: buf.build/protocolbuffers/cpp:v21.12
+    out: .
